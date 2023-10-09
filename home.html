@@ -79,7 +79,7 @@
               container.appendChild(card);
 
         function showPopup() {
-          const popup = window.open("", "popup", "width=800,height=800");
+          const popup = window.open("", "_self", "width=800,height=800");
           popup.document.write(`
             <p><strong>Titolo:</strong>${titolo.textContent}</p>
             <img src="${copertina.src}" width=200 height=300 alt="copertina">
